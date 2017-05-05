@@ -10,6 +10,6 @@ Add the service provider in `config/app.php`:
 
     'Kendo\KendoUIServiceProvider',
 
-Publish config file:
+Publish public files:
 
     php artisan vendor:publish --tag=public --force
